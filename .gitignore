@@ -1,0 +1,26 @@
+# Ignore build and cache files in both client and smart_contract
+client/cache/
+client/out/
+smart_contract/cache/
+smart_contract/out/
+
+# Ignore development broadcast logs in both
+!/client/broadcast
+client/broadcast/*/31337/
+client/broadcast/**/dry-run/
+!/smart_contract/broadcast
+smart_contract/broadcast/*/31337/
+smart_contract/broadcast/**/dry-run/
+
+# Ignore docs folders
+client/docs/
+smart_contract/docs/
+
+# Ignore dotenv files in both
+client/.env
+smart_contract/.env
+.env
+
+# (Optional) Ignore node_modules in both
+client/node_modules/
+smart_contract/node_modules/
